@@ -20,7 +20,7 @@ class App(ctk.CTk):
         self.geometry(f"{self.default_window_width}x{self.default_window_height}")
 
         # generates user interface
-        self.windowlabel = ctk.CTkLabel(self,text="Avishake Adhikary's Image Generator", font=ctk.CTkFont(size=30, weight="bold"),padx=50, pady=50,text_color="white")
+        self.windowlabel = ctk.CTkLabel(self,text=Image Generator", font=ctk.CTkFont(size=30, weight="bold"),padx=50, pady=50,text_color="white")
         self.windowlabel.pack()
         self.promptlabel = ctk.CTkLabel(self,text="Prompt", font=ctk.CTkFont(family="Times New Roman",size=20, weight="bold"),text_color="white")
         self.promptlabel.pack()

@@ -1,3 +1,7 @@
+code written in google collab and that file is downloaded as .py and .ipynb
+
+
+
 # Text-To-Image-Generator
 
 
